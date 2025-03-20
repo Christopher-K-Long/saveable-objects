@@ -1,5 +1,4 @@
-name: Release and Publish Python distribution to PyPI and TestPyPI
-
+name: Release and Publish Python distribution to PyPI
 on: workflow_dispatch
 
 jobs:

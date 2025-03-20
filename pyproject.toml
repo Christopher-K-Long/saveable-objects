@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling", "numpy", "cloudpickle"]
+build-backend = "hatchling.build"
+
+[project]
+name = "saveable-objects"
+version = "0.0.0"
+authors = [
+  { name="Christopher_K._Long", email="ckl45@cam.ac.uk" },
+]
+maintainers = [
+  { name="Christopher_K._Long", email="ckl45@cam.ac.uk" },
+]
+description = "A python package for checkpointing, saving, and loading objects."
+keywords = ["save", "saving", "saveable", "object", "checkpoint", "checkpointing", "load", "loading"]
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "Apache-2.0 License"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/Christopher-K-Long/saveable-objects"
+Issues = "https://github.com/Christopher-K-Long/saveable-objects/issues"
+Changelog = "https://github.com/Christopher-K-Long/saveable-objects/blob/main/ChangeLog.md"

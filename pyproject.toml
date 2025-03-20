@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "saveable-objects"
-version = "0.0.0"
+version = "1.0.0"
 authors = [
   { name="Christopher_K._Long", email="ckl45@cam.ac.uk" },
 ]
@@ -24,5 +24,6 @@ license-files = ["LICEN[CS]E*"]
 
 [project.urls]
 Homepage = "https://github.com/Christopher-K-Long/saveable-objects"
+Documentation = "https://saveable-objects.readthedocs.io/"
 Issues = "https://github.com/Christopher-K-Long/saveable-objects/issues"
 Changelog = "https://github.com/Christopher-K-Long/saveable-objects/blob/main/ChangeLog.md"

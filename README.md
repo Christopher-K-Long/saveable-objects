@@ -10,7 +10,7 @@ pip install saveable-objects
 
 ## Documentation
 
-Documentation including worked examples can be found at: 
+Documentation including worked examples can be found at: [https://saveable-objects.readthedocs.io/](https://saveable-objects.readthedocs.io/).
 
 ## Source Code
 

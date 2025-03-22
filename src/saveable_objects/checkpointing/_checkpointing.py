@@ -1,6 +1,6 @@
 from typing import Tuple
 
-from .._saveable_object import SaveableObject
+from .. import SaveableObject
 
 def failed(load_attempt: SaveableObject | bool | Tuple[SaveableObject, bool]) -> bool:
     """Determines if a :class:`SaveableObject <saveable_objects.SaveableObject>`

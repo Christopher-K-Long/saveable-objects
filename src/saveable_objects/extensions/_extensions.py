@@ -1,6 +1,6 @@
 from typing import Optional, TypeVar, Generic
 
-from .._saveable_object import SaveableObject
+from .. import SaveableObject
 from .._meta_class import SaveAfterInitMetaClass
 
 T = TypeVar("T")

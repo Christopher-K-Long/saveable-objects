@@ -55,6 +55,11 @@ jobs:
         python-version: ["3.7", "3.8", "3.9", "3.10", "3.11", "3.12", "3.13"]
 
     steps:
+    - name: Download all the dists
+      uses: actions/download-artifact@v4
+      with:
+        name: python-package-distributions
+        path: dist/
     - uses: actions/checkout@v4
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v5
@@ -65,7 +70,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install flake8 pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-        for w in ./dist/*.whl; do python -m pip install $w; done
+        for w in dist/*.whl; do python -m pip install $w; done
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names

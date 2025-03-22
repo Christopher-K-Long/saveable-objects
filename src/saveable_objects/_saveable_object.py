@@ -89,7 +89,8 @@ class SaveableObject(metaclass=SaveAfterInitMetaClass):
             as `mode` for ``open``. By default ``"wb"``.
         """
         if not os.path.exists(path):
-            if (dirname := os.path.dirname(path)) != '':
+            dirname = os.path.dirname(path)
+            if dirname != '':
                 os.makedirs(dirname, exist_ok=True)
         with open(path, write_mode) as file:
             cpkl.dump(self, file, pkl.HIGHEST_PROTOCOL)
@@ -343,7 +344,8 @@ class SaveableObject(metaclass=SaveAfterInitMetaClass):
             path = bound_args.arguments["path"]
         except KeyError:
             path = None
-        if instance := cls.tryload(path):
+        instance = cls.tryload(path)
+        if instance:
             return instance, True
         return cls(*args, **kwargs), False
     @classmethod

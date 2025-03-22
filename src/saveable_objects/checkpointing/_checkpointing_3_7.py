@@ -1,8 +1,8 @@
-from typing import Tuple
+from typing import Tuple, Union
 
 from .. import SaveableObject
 
-def failed(load_attempt: SaveableObject | bool | Tuple[SaveableObject, bool]) -> bool:
+def failed(load_attempt: Union[SaveableObject, bool, Tuple[SaveableObject, bool]]) -> bool:
     """Determines if a :class:`SaveableObject <saveable_objects.SaveableObject>`
     :meth:`.load() <saveable_objects.SaveableObject.load>`,
     :meth:`.tryload() <saveable_objects.SaveableObject.tryload>`,
@@ -38,7 +38,7 @@ def failed(load_attempt: SaveableObject | bool | Tuple[SaveableObject, bool]) ->
     except:
         return not load_attempt
     
-def succeeded(load_attempt: SaveableObject | bool | Tuple[SaveableObject, bool]) -> bool:
+def succeeded(load_attempt: Union[SaveableObject, bool, Tuple[SaveableObject, bool]]) -> bool:
     """Determines if a :class:`SaveableObject <saveable_objects.SaveableObject>`
     :meth:`.load() <saveable_objects.SaveableObject.load>`,
     :meth:`.tryload() <saveable_objects.SaveableObject.tryload>`,

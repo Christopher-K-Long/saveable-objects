@@ -3,7 +3,7 @@ import inspect
 import numpy as np
 import pickle as pkl
 import cloudpickle as cpkl
-from typing import Optional, Literal, IO, Tuple
+from typing import Optional, Union, IO, Tuple
 
 from ._meta_class import SaveAfterInitMetaClass
 
@@ -77,7 +77,7 @@ class SaveableObject(metaclass=SaveAfterInitMetaClass):
         """
         return self._get_name(self._path)
         
-    def _save(self, path: str, write_mode: Literal["w", "wb", "a", "ab", "x", "xb"] = "wb"):
+    def _save(self, path: str, write_mode = "wb"):
         """Saves the object to `path` using `write_mode`.
 
         Parameters
@@ -286,7 +286,7 @@ class SaveableObject(metaclass=SaveAfterInitMetaClass):
         with open(path, "rb") as file:
             return cls._load(file, new_path, strict_typing)
     @classmethod
-    def tryload(cls, path: Optional[str], new_path: Optional[str] = None, strict_typing: bool = True) -> "SaveableObject" | Literal[False]:
+    def tryload(cls, path: Optional[str], new_path: Optional[str] = None, strict_typing: bool = True) -> Union["SaveableObject", bool]:
         """Attempts to :meth:`load` from the specified `path`. If the loading
         fails then ``False`` is returned.
 

@@ -8,6 +8,15 @@ The python package can be installed with pip as follows:
 pip install saveable-objects
 ```
 
+### Requirements:
+
+Python >= 3.7
+
+Packages:
+
+- [NumPy](https://numpy.org/)
+- [cloudpickle](https://github.com/cloudpipe/cloudpickle)
+
 ## Documentation
 
 Documentation including worked examples can be found at: [https://saveable-objects.readthedocs.io/](https://saveable-objects.readthedocs.io/).
@@ -19,5 +28,5 @@ Source code can be found at: [https://github.com/Christopher-K-Long/saveable-obj
 
 ## Version and Changes
 
-The current version is [`1.0.0`](ChangeLog.md#release-100). Please see the [Change Log](ChangeLog.md) for more
+The current version is [`1.1.0`](ChangeLog.md#release-110). Please see the [Change Log](ChangeLog.md) for more
 details.

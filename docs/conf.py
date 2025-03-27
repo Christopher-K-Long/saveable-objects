@@ -26,6 +26,7 @@ autosummary_imported_members = True
 # autodoc_inherit_docstrings = True
 napoleon_include_init_with_doc = True
 napoleon_numpy_docstring = True
+viewcode_line_numbers = True
 myst_heading_anchors = 5
 suppress_warnings = ["myst.header"]
 

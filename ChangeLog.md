@@ -1,5 +1,9 @@
 # [saveable-objects](README.md) Change Log
 
+## Release v1.1.1
+
+Added line numbers to view source code section of the documentation. 
+
 ## Release v1.1.0
 
 This release adds support for earlier python versions that 3.10. Specifically the changes in this release are:

@@ -77,7 +77,9 @@ class SaveableObject(metaclass=SaveAfterInitMetaClass):
         """
         return self._get_name(self._path)
         
-    def _save(self, path: str, write_mode: Literal["w", "wb", "a", "ab", "x", "xb"] = "wb"):
+    def _save(self,
+              path: str,
+              write_mode: Literal["w", "wb", "a", "ab", "x", "xb"] = "wb"):
         """Saves the object to `path` using `write_mode`.
 
         Parameters
@@ -213,7 +215,11 @@ class SaveableObject(metaclass=SaveAfterInitMetaClass):
             return True
         
     @classmethod
-    def _load(cls, file: IO, new_path: Optional[str] = None, strict_typing: bool = True) -> "SaveableObject":
+    def _load(cls,
+              file: IO,
+              new_path: Optional[str] = None,
+              strict_typing: bool = True
+             ) -> "SaveableObject":
         """Loads an instance from the `file`.
 
         Parameters
@@ -251,7 +257,11 @@ class SaveableObject(metaclass=SaveAfterInitMetaClass):
             instance.path = new_path
         return instance
     @classmethod
-    def load(cls, path: str, new_path: Optional[str] = None, strict_typing: bool = True) -> "SaveableObject":
+    def load(cls,
+             path: str,
+             new_path: Optional[str] = None,
+             strict_typing: bool = True
+            ) -> "SaveableObject":
         """Loads a pickled instance.
 
         Parameters
@@ -286,7 +296,11 @@ class SaveableObject(metaclass=SaveAfterInitMetaClass):
         with open(path, "rb") as file:
             return cls._load(file, new_path, strict_typing)
     @classmethod
-    def tryload(cls, path: Optional[str], new_path: Optional[str] = None, strict_typing: bool = True) -> "SaveableObject" | Literal[False]:
+    def tryload(cls,
+                path: Optional[str],
+                new_path: Optional[str] = None,
+                strict_typing: bool = True
+               ) -> "SaveableObject" | Literal[False]:
         """Attempts to :meth:`load` from the specified `path`. If the loading
         fails then ``False`` is returned.
 
@@ -349,7 +363,11 @@ class SaveableObject(metaclass=SaveAfterInitMetaClass):
             return instance, True
         return cls(*args, **kwargs), False
     @classmethod
-    def loadifparams(cls, *args, dependencies: dict = {}, **kwargs) -> Tuple["SaveableObject", bool]:
+    def loadifparams(cls,
+                     *args,
+                     dependencies: dict = {},
+                     **kwargs
+                    ) -> Tuple["SaveableObject", bool]:
         """Attempts to :meth:`load` from a specified `path`. If the loading
         fails or no `path` is specified or the parameters do not match the saved
         parameters then a new instance of the object is generated with the

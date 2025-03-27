@@ -7,8 +7,8 @@ def failed(load_attempt: Union[SaveableObject, bool, Tuple[SaveableObject, bool]
     :meth:`.load() <saveable_objects.SaveableObject.load>`,
     :meth:`.tryload() <saveable_objects.SaveableObject.tryload>`,
     :meth:`.loadif() <saveable_objects.SaveableObject.loadif>`, or
-    :meth:`.loadifparams() <saveable_objects.SaveableObject.loadifparams>` attempt
-    fails.
+    :meth:`.loadifparams() <saveable_objects.SaveableObject.loadifparams>`
+    attempt fails.
 
     Parameters
     ----------
@@ -43,8 +43,8 @@ def succeeded(load_attempt: Union[SaveableObject, bool, Tuple[SaveableObject, bo
     :meth:`.load() <saveable_objects.SaveableObject.load>`,
     :meth:`.tryload() <saveable_objects.SaveableObject.tryload>`,
     :meth:`.loadif() <saveable_objects.SaveableObject.loadif>`, or
-    :meth:`.loadifparams() <saveable_objects.SaveableObject.loadifparams>` attempt
-    succeeds.
+    :meth:`.loadifparams() <saveable_objects.SaveableObject.loadifparams>`
+    attempt succeeds.
 
     Parameters
     ----------

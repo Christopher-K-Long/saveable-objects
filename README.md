@@ -1,6 +1,8 @@
 # saveable-objects
 A python package for checkpointing, saving, and loading objects.
 
+[![Unit Tests](https://github.com/Christopher-K-Long/saveable-objects/actions/workflows/test-python-package.yml/badge.svg?branch=main)](https://github.com/Christopher-K-Long/saveable-objects/actions/workflows/test-python-package.yml)
+
 ## Installation
 
 The python package can be installed with pip as follows:

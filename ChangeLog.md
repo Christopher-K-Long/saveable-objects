@@ -1,5 +1,10 @@
 # [saveable-objects](README.md) Change Log
 
+## Release v1.1.2
+
+- Reduced build requirements.
+- Minor improvements to documentation.
+
 ## Release v1.1.1
 
 Added line numbers to view source code section of the documentation. 

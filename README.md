@@ -28,5 +28,5 @@ Source code can be found at: [https://github.com/Christopher-K-Long/saveable-obj
 
 ## Version and Changes
 
-The current version is [`1.1.1`](ChangeLog.md#release-111). Please see the [Change Log](ChangeLog.md) for more
+The current version is [`1.1.2`](ChangeLog.md#release-112). Please see the [Change Log](ChangeLog.md) for more
 details.

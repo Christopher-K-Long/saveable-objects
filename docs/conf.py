@@ -24,6 +24,7 @@ extensions = ['sphinx.ext.autodoc',
 autosummary_generate = True # Turn on sphinx.ext.autosummary
 autosummary_imported_members = True
 # autodoc_inherit_docstrings = True
+autodoc_member_order = "groupwise"
 napoleon_include_init_with_doc = True
 napoleon_numpy_docstring = True
 viewcode_line_numbers = True

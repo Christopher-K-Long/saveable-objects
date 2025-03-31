@@ -1,5 +1,5 @@
 [build-system]
-requires = ["hatchling", "numpy", "cloudpickle"]
+requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]

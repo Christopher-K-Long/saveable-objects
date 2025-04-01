@@ -1,12 +1,16 @@
 # saveable-objects
 A python package for checkpointing, saving, and loading objects.
 
+[![Unit Tests](https://github.com/Christopher-K-Long/saveable-objects/actions/workflows/test-python-package.yml/badge.svg?branch=main)](https://github.com/Christopher-K-Long/saveable-objects/actions/workflows/test-python-package.yml)
+
 ## Installation
 
 The python package can be installed with pip as follows:
 ```bash
 pip install saveable-objects
 ```
+
+The PyPI page can be found here: [https://pypi.org/project/saveable-objects](https://pypi.org/project/saveable-objects).
 
 ### Requirements:
 
@@ -28,5 +32,5 @@ Source code can be found at: [https://github.com/Christopher-K-Long/saveable-obj
 
 ## Version and Changes
 
-The current version is [`1.1.2`](ChangeLog.md#release-112). Please see the [Change Log](ChangeLog.md) for more
+The current version is [`1.1.3`](ChangeLog.md#release-113). Please see the [Change Log](ChangeLog.md) for more
 details.

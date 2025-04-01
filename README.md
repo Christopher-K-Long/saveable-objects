@@ -10,6 +10,8 @@ The python package can be installed with pip as follows:
 pip install saveable-objects
 ```
 
+The PyPI page can be found here: [https://pypi.org/project/saveable-objects](https://pypi.org/project/saveable-objects).
+
 ### Requirements:
 
 Python >= 3.7

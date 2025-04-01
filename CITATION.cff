@@ -1,0 +1,33 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: saveable-objects
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Christopher K.
+    family-names: Long
+    email: ckl45@cam.ac.uk
+    affiliation: University of Cambridge
+    orcid: 'https://orcid.org/0009-0001-3230-942X'
+repository-code: 'https://github.com/Christopher-K-Long/saveable-objects'
+url: 'https://saveable-objects.readthedocs.io'
+repository: 'https://pypi.org/project/saveable-objects'
+abstract: >-
+  A python package for checkpointing, saving, and loading
+  objects.
+keywords:
+  - save
+  - saving
+  - saveable
+  - object
+  - checkpoint
+  - checkpointing
+  - load
+  - loading
+license: Apache-2.0
+version: v1.1.3
+date-released: '2025-04-01'

@@ -1,5 +1,10 @@
 # [saveable-objects](README.md) Change Log
 
+## Release v1.1.3
+
+- Added unit test status badge to [README](README.md).
+- Added ``CITATION.cff``.
+
 ## Release v1.1.2
 
 - Reduced build requirements.

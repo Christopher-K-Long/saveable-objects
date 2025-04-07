@@ -1,5 +1,12 @@
 # [saveable-objects](README.md) Change Log
 
+## Release v1.1.4
+
+- Hid superfluous table of contents in the index page of the User Guide in the documentation;
+- Changed the documentation theme to [Furo](https://github.com/pradyunsg/furo);
+    - This fixed a bug in which long lines of code would not be correctly
+    highlighted in the view source code page.
+
 ## Release v1.1.3
 
 - Added unit test status badge to [README](README.md).

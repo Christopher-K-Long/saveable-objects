@@ -1,5 +1,12 @@
 # [saveable-objects](README.md) Change Log
 
+## Release v1.1.5
+
+- Added the license to the documentation
+- Added link to the GitHub repository to the navigation pane in the documentation
+- Added a version consistency test
+- Added [tox](https://tox.wiki/) support for user testing.
+
 ## Release v1.1.4
 
 - Hid superfluous table of contents in the index page of the User Guide in the documentation;

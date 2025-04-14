@@ -17,3 +17,6 @@ saveable-objects
     user_guide/index
     reference/index
     ChangeLog.md.rst
+    License
+    GitHub <https://github.com/Christopher-K-Long/saveable-objects>
+    PyPI <https://pypi.org/project/saveable-objects/>

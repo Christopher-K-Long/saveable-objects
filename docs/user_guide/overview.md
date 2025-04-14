@@ -9,6 +9,11 @@
 - [Creating a SaveableObject](creating_a_saveableobject.md)
 - [Saving and loading](saving_and_loading.md)
 
+## Running Tests
+
+ - [Running Tests](running_tests.md)
+
+
 ---
 
 [Next](getting_started.md)

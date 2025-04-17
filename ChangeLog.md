@@ -2,9 +2,10 @@
 
 ## Release 1.1.6
 
-- Removed duplicated license tabs from the GitHub documentation
-- Improved the release automation
-- Enforced checks on ``date-released`` in ``CITATION.cff`` before a release can be published
+- Removed duplicated license tabs from the GitHub documentation;
+- Improved the release automation;
+- Enforced checks on ``date-released`` in ``CITATION.cff`` before a release can be published;
+- Fixed bug in GitHub workflow testing where the wrong ``requirements.txt`` was being installed.
 
 ## Release 1.1.5
 

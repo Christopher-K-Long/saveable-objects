@@ -79,6 +79,7 @@ jobs:
       id-token: write  # IMPORTANT: mandatory for sigstore
 
     steps:
+    - uses: actions/checkout@v4
     - name: Download all the dists
       uses: actions/download-artifact@v4
       with:
@@ -92,7 +93,7 @@ jobs:
           ./dist/*.whl
     - name: Get Version
       run: |
-        echo "VERSION=$(cat "../CITATION.cff" | perl -nle'print $& while m{(?<=^version:\s).*}g')" >> $GITHUB_OUTPUT
+        echo "VERSION=$(cat "CITATION.cff" | perl -nle'print $& while m{(?<=^version:\s).*}g')" >> $GITHUB_OUTPUT
       id: version
     - name: Create GitHub Release
       env:

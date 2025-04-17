@@ -1,5 +1,9 @@
 # [saveable-objects](README.md) Change Log
 
+## Release 1.1.7
+
+- GitHub workflow release generation bug.
+
 ## Release 1.1.6
 
 - Removed duplicated license tabs from the GitHub documentation;

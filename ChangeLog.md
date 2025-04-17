@@ -1,5 +1,9 @@
 # [saveable-objects](README.md) Change Log
 
+## Release 1.1.8
+
+Fixed bug where artifacts would not upload to the newly created GitHub release.
+
 ## Release 1.1.7
 
 - GitHub workflow release generation bug.

@@ -19,4 +19,5 @@ saveable-objects
     ChangeLog.md.rst
     include_license
     GitHub <https://github.com/Christopher-K-Long/saveable-objects>
+    GitLab (mirror) <https://gitlab.com/Christopher-K-Long/saveable-objects>
     PyPI <https://pypi.org/project/saveable-objects/>

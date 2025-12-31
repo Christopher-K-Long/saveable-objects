@@ -23,11 +23,15 @@ Packages:
 
 ## Documentation
 
-Documentation including worked examples can be found at: [https://saveable-objects.readthedocs.io/](https://saveable-objects.readthedocs.io/).
+Documentation, including worked examples can be found at: [https://saveable-objects.readthedocs.io/](https://saveable-objects.readthedocs.io/).
 
 ## Source Code
 
 Source code can be found at: [https://github.com/Christopher-K-Long/saveable-objects](https://github.com/Christopher-K-Long/saveable-objects).
+
+A mirror can be found at: [https://gitlab.com/Christopher-K-Long/saveable-objects](https://gitlab.com/Christopher-K-Long/saveable-objects)
+
+Please submit all [pull requests](https://github.com/Christopher-K-Long/saveable-objects/pulls), [issues](https://github.com/Christopher-K-Long/saveable-objects/issues), [discussions](https://github.com/Christopher-K-Long/saveable-objects/discussions), and [vulnerability reports](https://github.com/Christopher-K-Long/saveable-objects/security) to the [GitHub](https://github.com/Christopher-K-Long/saveable-objects) repository.
 
 
 ## Version and Changes

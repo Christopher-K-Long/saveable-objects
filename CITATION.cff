@@ -17,7 +17,7 @@ repository-code: 'https://github.com/Christopher-K-Long/saveable-objects'
 url: 'https://saveable-objects.readthedocs.io'
 repository: 'https://pypi.org/project/saveable-objects'
 abstract: >-
-  A python package for checkpointing, saving, and loading
+  A Python package for checkpointing, saving, and loading
   objects.
 keywords:
   - save
